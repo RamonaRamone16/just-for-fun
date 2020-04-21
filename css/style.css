@@ -1,0 +1,288 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+}
+
+.header{
+	background-color: #B284BE;
+	padding: 5px 15px;
+}
+
+.header .container{
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo{
+	font-family: 'Righteous', cursive;
+	font-weight: bold;
+	font-size: 20px;
+	display: inline-block;
+	transition: 0.5s ease-out;
+	color: #fff;
+}
+.logo:hover{
+	transform: scale(0.9);
+	text-decoration: none;
+	color: #fff;
+}
+
+.main-nav{
+	display: inline-block;
+}
+.main-nav ul{
+	list-style: none;
+}
+.main-nav li{
+	display: inline-block;
+	transition: 0.5s ease-out;
+}
+.main-nav li:hover{
+	transform: scale(1.2);
+}
+.main-nav a{
+	color: #fff;
+	font-size: 13px;
+	font-weight: 600;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-left: 30px;
+}
+
+.reg-btn{
+	background-color: #A754C0;
+	font-size: 13px;
+	font-weight: 700;
+	color: #fff;
+	padding: 6px 35px;
+	margin-top: 11px;
+	transition: 0.5s ease-out;
+
+}
+.reg-btn:hover{
+	transform: scale(1.2);
+	color: #fff;
+}
+
+
+
+.carousel-caption{
+	padding: 100px 0 250px;
+}
+
+.slider-text{
+	font-size: 60px;
+	font-weight: 800;
+	color: #A332D3;
+}
+.c-link{
+	font-size: 25px;
+	font-weight: bold;
+	color: #fff;
+	display: inline-block;
+	text-decoration: none;
+	opacity: 0.5;
+	padding: 5px 15px;
+	background-color: #A754C0;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	transition: 0.5s ease-out;
+}
+.c-link:hover{
+	transform: scale(1.1);
+	text-decoration: none;
+	color: #fff;
+	opacity: 1;
+}
+
+
+
+
+/*Features*/
+.features-block{
+	background-color: #ECEBE7;
+	padding: 120px 0 145px;
+	color: #A754C0;
+}
+.features-block h1{
+	text-align: center;
+}
+.feature-col{
+	transition: 0.5s ease-out;
+}
+.feature-col:hover{
+	transform: scale(1.2);
+}
+.feature-link:hover{
+	text-decoration: none;
+}
+.column-title{
+	font-size: 20px;
+	font-weight: 600;
+	padding: 0 0 30px 60px;
+	position: relative;
+	color: #A754C0;
+}
+.column-bg{
+	width: 40px;
+	height: 40px;
+	border: 2px solid  #B284BE;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	position: absolute;
+	text-align: center;
+	padding-top: 5px;
+	top: 0;
+	left: 0;
+}
+.column-text{
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 21px;
+	padding-left: 60px;
+}
+
+.fab{
+	color:  #B284BE;
+}
+
+
+
+/*Middle-Block*/
+.middle-block{
+	background-color: #D5C9DD;
+	text-align: center;
+	color: #353535;
+}
+
+.middle-block h2{
+	font-size: 40px;
+	padding: 70px 0 50px;
+}
+
+.box{
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid #C7C7C7;
+	background-color: #fff;
+}
+
+.text-block{
+	position: relative;
+}
+
+.img-block{
+	height: 220px;
+}
+
+.img-block-1{
+	background-image: url(../images/html-css.jpg);
+}
+
+.img-block-2{
+	background-image: url(../images/github.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.img-block-3{
+	background-image: url(../images/password.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.numerals{ 
+	position: absolute;
+	top: 67px;
+	left: -40px;
+}
+.numerals p{
+	font-family: Georgia, serif;;
+	font-size: 50px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #B284BE;
+	border: 2px solid #fff;
+	border-radius: 3px;
+	display: block;
+	width: 70px;
+	height: 70px;
+	box-sizing: border-box;
+}
+
+
+
+/*Facts*/
+.third-block{
+	background-image: url(../images/last-pic.jpg);
+	background-size: 100%;
+	padding: 250px 0 165px;
+	text-align: center;
+	display: flex;
+	color: #FFFFFF;
+}
+
+.title{
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.t-link{
+	font-size: 25px;
+	font-weight: bold;
+	color: #fff;
+	display: inline-block;
+	text-decoration: none;
+	opacity: 0.5;
+	margin-top: 50px;
+	padding: 10px 25px;
+	background-color: #353535;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	transition: 0.5s ease-out;
+}
+.t-link:hover{
+	transform: scale(1.1);
+	text-decoration: none;
+	color: #fff;
+	opacity: 1;
+}
+
+
+
+
+.footer{
+	background-color: #353535;
+}
+
+
+
+
+
+.form-block{
+	padding: 20px;
+}
+.field{
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin-top: 0;
+}
+.send-btn{
+	font-size: 20px;
+	font-weight: 700;
+	color: #fff;
+	background-color: #A754C0;
+}
+.date-fluid{
+	padding-left: 2px;
+	height: 25px;
+	margin-left: 5px;
+}
+.field-title{
+	margin: 0;
+}
+
+
