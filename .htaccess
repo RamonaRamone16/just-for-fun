@@ -1,4 +1,4 @@
 AuthType Basic
 AuthName 'Protected Area'
-AuthUserFile C:\MySites\Site\.htpasswd
+AuthUserFile C:/MySites/Site/.htpasswd/
 Require valid-user
