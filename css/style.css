@@ -1,5 +1,5 @@
 body{
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Russo One', sans-serif;
 	margin: 0;
 }
 
@@ -46,7 +46,7 @@ body{
 	font-weight: 600;
 	text-decoration: none;
 	text-transform: uppercase;
-	margin-left: 30px;
+	margin-left: 50px;
 }
 
 .reg-btn{
@@ -65,7 +65,7 @@ body{
 }
 
 
-
+/*Carousel*/
 .carousel-caption{
 	padding: 100px 0 250px;
 }
@@ -98,7 +98,7 @@ body{
 
 
 
-/*Features*/
+/*First Block*/
 .features-block{
 	background-color: #ECEBE7;
 	padding: 120px 0 145px;
@@ -132,7 +132,7 @@ body{
 	background-position: 50% 50%;
 	position: absolute;
 	text-align: center;
-	padding-top: 5px;
+	padding-top: 3px;
 	top: 0;
 	left: 0;
 }
@@ -170,6 +170,7 @@ body{
 
 .text-block{
 	position: relative;
+	padding: 30px 45px;
 }
 
 .img-block{
@@ -213,7 +214,7 @@ body{
 
 
 
-/*Facts*/
+/*Third Block*/
 .third-block{
 	background-image: url(../images/last-pic.jpg);
 	background-size: 100%;
